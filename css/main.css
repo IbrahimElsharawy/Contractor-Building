@@ -39,6 +39,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+  
 }
 .landing-home .overlay {
   background-color: rgba(0, 0, 0, 0.6);
@@ -49,11 +50,12 @@ body {
   left: 0;
   z-index: 1;
 }
-.landing-home .navbar {
-  z-index: 10;
-  position: fixed;
-  width: 100%;
+.landing-home .navbar  {
+  z-index: 5;
+  position: absolute;
+ width: 100%;
 }
+
 .landing-home .navbar.sticky {
   background-color: #262626;
 }
@@ -717,3 +719,52 @@ position: absolute;
  transform: scale(.8);
 }
 /* end get quotation */
+
+/* start footer */
+.footer
+{
+  background-color: var(--background-color);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer .col-lg-4
+{
+  padding: 20px;
+}
+.footer p{
+color: white;
+text-transform: capitalize;
+}
+.footer .fa-arrow-right-from-bracket
+{
+color: var(--main-color);
+}
+.footer .navbar-brand {
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.footer .navbar-brand span
+{
+  color: var(--main-color);
+}
+
+
+
+.footer ul li
+{
+  display: inline-block;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  
+  background-color: white;
+  border-radius: 50%;
+}
+.footer ul li a{
+  color:var(--main-color) ;
+}
+
+/* end footer */
