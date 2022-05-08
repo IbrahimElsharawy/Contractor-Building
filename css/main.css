@@ -7,6 +7,12 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.container
+{
+ 
+  overflow-x: hidden !important;
+  
+}
 
 /* start button to top */
 .button {
