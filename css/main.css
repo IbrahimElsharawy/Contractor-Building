@@ -59,7 +59,7 @@ body {
 }
 .landing-home .navbar  {
   z-index: 5;
-  position: absolute;
+  position: fixed;
  width: 100%;
 }
 
