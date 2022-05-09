@@ -42,19 +42,19 @@ body {
 
 /* start navbar and landging page */
 
-.landing-home .navbar {
+.navbar-about .navbar {
   z-index: 5;
   position: fixed;
   width: 100%;
 }
 
-.landing-home .navbar .navbar-brand {
+.navbar-about .navbar .navbar-brand {
   color: black;
   text-transform: uppercase;
   font-size: 30px;
 }
 
-.landing-home .navbar .navbar-brand span {
+.navbar-about .navbar .navbar-brand span {
   font-size: 40px;
   background-color: var(--main-color);
   padding: 4px 8px;
@@ -62,16 +62,16 @@ body {
   color: white;
 }
 
-.landing-home .navbar .navbar-brand:hover span {
+.navbar-about .navbar .navbar-brand:hover span {
   color: white;
   background-color: black;
 }
 
-.landing-home .navbar .nav-item {
+.navbar-about .navbar .nav-item {
   padding: 10px;
 }
 
-.landing-home .navbar .nav-item .nav-link {
+.navbar-about .navbar .nav-item .nav-link {
   color: black;
   font-size: 20px;
   text-transform: capitalize;
@@ -79,30 +79,30 @@ body {
 }
 
 @media (max-width: 991px) {
-  .landing-home .navbar {
+  .navbar-about .navbar {
     background-color: white;
   }
 }
 
-.landing-home .navbar .nav-item .nav-link.active {
+.navbar-about .navbar .nav-item .nav-link.active {
   color: var(--main-color);
   border-bottom: 1px solid var(--main-color);
 }
 
-.landing-home .navbar .nav-item .nav-link:hover {
+.navbar-about .navbar .nav-item .nav-link:hover {
   color: var(--main-color);
   border-bottom: 1px solid var(--main-color);
   transition: 0.5s;
 }
-.landing-home .navbar .navbar-toggler {
+.navbar-about .navbar .navbar-toggler {
   color: black;
 }
 
-.landing-home .navbar .navbar-toggler:focus {
+.navbar-about .navbar .navbar-toggler:focus {
   box-shadow: none;
 }
 
-.landing-home .navbar .navbar-toggler[aria-expanded="true"] {
+.navbar-about .navbar .navbar-toggler[aria-expanded="true"] {
   border-color: var(--main-color);
 }
 
