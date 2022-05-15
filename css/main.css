@@ -732,13 +732,9 @@ position: absolute;
 .footer
 {
   background-color: var(--background-color);
-  padding-top: 50px;
-  padding-bottom: 50px;
+padding-top: 15px;
 }
-.footer .col-lg-4
-{
-  padding: 20px;
-}
+
 .footer p{
 color: white;
 text-transform: capitalize;
