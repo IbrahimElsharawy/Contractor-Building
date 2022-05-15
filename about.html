@@ -115,7 +115,6 @@
     <!-- end about info -->
 
     <!-- start experts -->
-
     <div class="experts">
       <div class="experts-header">
         <h3>Our Experts</h3>
@@ -225,8 +224,124 @@
         </div>
       </div>
     </div>
-
     <!-- end experts -->
+
+    <!--start customer sayes -->
+    <div class="customer-says">
+      <div class="customer-header">
+         <h3>What our Customer says?</h3>
+        <div class="border-bottom"></div>
+        <p>
+         Don't take just our words. Hear what our Customers say.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+        <div class="col-lg-6 left">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <p>
+                  "claritas est etiam processes dynamicus,qui sequitur
+                  mutationem consuetudium lectorum. mirum est notare quam
+                  littera gothica,quam nunc putamus parum claram,anteposuerit
+                  litterarum formas."
+                </p>
+                <div class="row">
+                  <div class="col-lg-3 col-md-2">
+                    <img src="./images/info-eng1.avif" alt="" />
+                  </div>
+                  <div class="col-lg-9 col-md-10 ifon">
+                    <h5>richard grant</h5>
+                    <span>engineer</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <p>
+                  "claritas est etiam processes dynamicus,qui sequitur
+                  mutationem consuetudium lectorum. mirum est notare quam
+                  littera gothica,quam nunc putamus parum claram,anteposuerit
+                  litterarum formas."
+                </p>
+                <div class="row">
+                  <div class="col-lg-3 col-md-2">
+                    <img src="./images/info-eng2.avif" alt="" />
+                  </div>
+                  <div class="col-lg-9 col-md-10 ifon">
+                    <h5>patrick jahanson</h5>
+                    <span>architest</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center right">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./images/icon1.webp" alt="" />
+              </div>
+              <div class="col-md-4">
+                <img src="./images/icon2.webp" alt="" />
+              </div>
+              <div class="col-md-4">
+                <img src="./images/icon3.webp" alt="" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./images/icon4.webp" alt="" />
+              </div>
+              <div class="col-md-4">
+                <img src="./images/icon5.webp" alt="" />
+              </div>
+              <div class="col-md-4">
+                <img src="./images/icon6.webp" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end customer sayes -->
+
+    <!-- start get quotation -->
+    <div class="quotation">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ">
+            <h3>Do you looking for Architecture design expertise?</h3>
+          </div>
+          <div class="col-lg-4 ">
+            <a href="#">get quotation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- end get quotation -->
+
+<!-- start footer -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <p>this project coded by <i class="fa-solid fa-arrow-right-from-bracket"></i> ibrahim sharawy</p>
+      </div>
+       <div class="col-lg-4">
+          <a class="navbar-brand" href="#"> <span>g</span>edung</a>
+      </div>
+       <div class="col-lg-4">
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a> </li>
+          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end footer -->
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
@@ -236,5 +351,24 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+
+
+    <script>
+      var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:1,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[3000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
+    </script>
   </body>
 </html>
