@@ -103,3 +103,13 @@ body {
 }
 
 /* end navbar and landing page */
+
+/* start google map */
+.google-map
+{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* end google map */
