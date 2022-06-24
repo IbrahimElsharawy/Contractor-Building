@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/all.min.css" />
@@ -13,6 +13,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
     />
     <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -23,9 +24,9 @@
     />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-</head>
-<body>
-      <!-- start button to top -->
+  </head>
+  <body>
+    <!-- start button to top -->
     <div class="button">
       <i class="fas fa-hard-hat"></i>
     </div>
@@ -55,12 +56,15 @@
                 >
               </li>
               <li class="nav-item text-center">
-                <a class="nav-link " href="about.html">about</a>
+                <a class="nav-link" href="about.html">about</a>
               </li>
               <li class="nav-item text-center">
                 <a class="nav-link" href="projects.html">projects</a>
               </li>
-             
+              <li class="nav-item text-center">
+                <a class="nav-link " href="blog.html">blog</a>
+              </li>
+
               <li class="nav-item text-center">
                 <a class="nav-link active" href="contact.html">contact</a>
               </li>
@@ -72,23 +76,151 @@
     <!-- end navbar -->
 
     <!-- start google map -->
-<div class="google-map">
+    <div class="google-map">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 map text-center">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55027.07926775589!2d31.223355529224147!3d30.458986533507105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145875f6592ee989%3A0xa0f7a3872335c0ce!2z2KjZhtmH2KfYjCDZgtiz2YUg2KjZhtmH2KfYjCDYqNmG2YfYp9iMINin2YTZgtmE2YrZiNio2YrYqQ!5e0!3m2!1sar!2seg!4v1655229200608!5m2!1sar!2seg"
+              width="100%"
+              height="500"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end google map -->
+
+    <!-- start contact-us -->
+    <div class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 left">
+            <div class="contact-info">
+              <h3>contact us</h3>
+              <p>
+                Lorem ipsum gravida nibh vel velit auctor aliqunean
+                sollicitudinlor quisbibendum auci elit consequat ipsutis sem
+                nibh id elitsed vulputate.
+              </p>
+            </div>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fas fa-map-marker-alt"> </i><span>our address</span>
+              </li>
+              <p>
+                Jl. Maleer Indah II, Maleer, Batununggal, Kota Bandung, Jawa
+                Barat 40274.
+              </p>
+              <li>
+                <i class="fas fa-phone-alt"></i><span>call us</span> <br /><a
+                  href="tel:01280136835"
+                  >+62 828 256 96 75
+                </a>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i> <span>email us</span><br /><a
+                  href="mailto:ibrahimelsha33rawy@gmail.com"
+                  >yourmail@example.com
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 right">
+            <form class="needs-validation" novalidate>
+              <div class="form-row">
+                <div class="col-md-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustom01"
+                    placeholder="Your Name*"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustom01"
+                    placeholder="Your Email*"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustom01"
+                    placeholder="Subject*"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustom01"
+                    placeholder="csds*"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-12">
+                  <textarea
+                    name=""
+                    id=""
+                    placeholder="Type Your Message here*"
+                  ></textarea>
+                </div>
+              </div>
+
+              <button class="btn btn-primary text-right" type="submit">
+                Submit form
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact-us -->
+
+    <!-- start footer -->
+<div class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 map text-center">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55027.07926775589!2d31.223355529224147!3d30.458986533507105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145875f6592ee989%3A0xa0f7a3872335c0ce!2z2KjZhtmH2KfYjCDZgtiz2YUg2KjZhtmH2KfYjCDYqNmG2YfYp9iMINin2YTZgtmE2YrZiNio2YrYqQ!5e0!3m2!1sar!2seg!4v1655229200608!5m2!1sar!2seg" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="col-lg-4">
+        <p>this project coded by <i class="fa-solid fa-arrow-right-from-bracket"></i> ibrahim sharawy</p>
+      </div>
+       <div class="col-lg-4">
+          <a class="navbar-brand" href="#"> <span>g</span>edung</a>
+      </div>
+       <div class="col-lg-4">
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a> </li>
+          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
+<!-- end footer -->
 
-    <!-- end google map -->
-
-    
-
-    
-
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
@@ -96,5 +228,30 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-</body>
+
+    <script>
+      // start a valid form
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+
+// end a valid form
+    </script>
+  </body>
 </html>
