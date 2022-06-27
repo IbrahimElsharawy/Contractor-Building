@@ -45,11 +45,11 @@ var a = {
 
 
 ### view of project
-<img src="./images/home_page.png" width="200px" height="200px"></img>
-<img src="./images/about_page.png" width="200px" height="200px"></img>
-<img src="./images/projects_page.png" width="200px" height="200px"></img>
-<img src="./images/blog_page.png" width="200px" height="200px"></img>
-<img src="./images/contact_page.png" width="200px" height="200px"></img>
+<img src="./images/home_page.png" width="200px" height="200px">
+<img src="./images/about_page.png" width="200px" height="200px">
+<img src="./images/projects_page.png" width="200px" height="200px">
+<img src="./images/blog_page.png" width="200px" height="200px">
+<img src="./images/contact_page.png" width="200px" height="200px">
 
 
 ### links used in project
