@@ -2,8 +2,9 @@
 **It is done for the contractor, building construction and presentation of the company's work. This site makes it easier to arrange your planning**
 
 ## why designed this website
-*I designed this site to help the contractor to display his projects and their quality and how to communicate with the contractor in an easy way*
+* A Contractor & Building Construction is Very suitable for Contractor, Construction Agency and Building Company with portfolio work showcase. Contractor & Building uses drag and drop page builder for built the page elements, make you easier to arrange your layout. This project also served with extensive theme options. With header builder and footer options, we create every one of theme have their controls. Every choices is in you.
 
+Contractor & Building will show off your work with this easy-to-customize and fully featured  Customizing is easy even for beginners*
 ## languages of project
 1. Html
 ```
@@ -44,6 +45,12 @@ var a = {
 
 
 ### view of project
+<img src="./images/home_page.png" width="200px" height="200px"></img>
+<img src="./images/about_page.png" width="200px" height="200px"></img>
+<img src="./images/projects_page.png" width="200px" height="200px"></img>
+<img src="./images/blog_page.png" width="200px" height="200px"></img>
+<img src="./images/contact_page.png" width="200px" height="200px"></img>
+
 
 ### links used in project
 1. [website use to get photo](https://unsplash.com)
